@@ -6,4 +6,6 @@ RUN apt-get update \
                 graphicsmagick \
                 libicu48 \
                 ttf-arphic-uming \
+                ttf-arphic-ukai \
+                ttf-wqy-zenhei \
         && rm -rf /var/lib/apt/lists/*
