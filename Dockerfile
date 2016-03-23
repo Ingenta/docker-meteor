@@ -5,4 +5,5 @@ RUN apt-get update \
                 openjdk-7-jre-headless \
                 graphicsmagick \
                 libicu48 \
+                ttf-arphic-uming \
         && rm -rf /var/lib/apt/lists/*
